@@ -42,7 +42,7 @@ function setup()
 
   for (let i = 1; i <= 7; i++)
   {
-    puppy[i] = loadImage(`/assets/puppy_${i}.png`)
+    puppy[i] = loadImage(`assets/puppy_${i}.png`)
   }
   textFont('Georgia');
   textStyle(BOLD);
