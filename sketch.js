@@ -47,12 +47,14 @@ function setup()
   textFont('Georgia');
   textStyle(BOLD);
   createCanvas(400, 400);
-  background(255);
+  background(55, 209, 240);
   textSize(18);
   imageMode(CENTER);
   frameRate(8);
 
   text("Click to Randomize.", 60, 150);
+  strokeWeight(2);
+  fill(3, 252, 90);
 
 
   button = createButton("click to randomize");
